@@ -18,7 +18,8 @@ function App() {
       </h2>
       
       <p>Client Work</p>
-      <a target = "_blank" href = "https://www.giocars.com"><p>giocars.com</p></a>
+      <a target = "_blank" href = "https://www.giocars.com"><p>giocars.com (website)</p></a>
+      <a target = "_blank" href = "https://github.com/jackson-elfers/gvm"><p>github.com/jackson-elfers/gvm (repository)</p></a>
       <p>GitHub Contributions</p>
       <a target = "_blank" href = "https://github.com/taniarascia/takenote"><p>github.com/taniarascia/takenote</p></a>
       <p>Independent Projects</p>
@@ -27,7 +28,7 @@ function App() {
       <p>Contact Info</p>
       <p style = {{ color: "white" }}>jacksonelfersjobs@outlook.com</p>
       <p>Resume</p>
-      <a target = "_blank" href = "https://jackson-elfers.github.io/resume.pdf"><p>jackson-elfers.github.io/resume.pdf</p></a>
+      <a target = "_blank" href = "https://jackson-elfers.github.io/jackson-elfers-resume-tech-2020.pdf"><p>jackson-elfers.github.io/jackson-elfers-resume-tech-2020.pdf</p></a>
     </div>
   );
 }
