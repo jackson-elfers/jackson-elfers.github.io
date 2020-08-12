@@ -1,0 +1,2 @@
+new BugController();
+new SpiderController();
