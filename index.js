@@ -1,2 +1,2 @@
-new BugController();
-new SpiderController();
+///new BugController();
+//new SpiderController();
