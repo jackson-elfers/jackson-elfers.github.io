@@ -10,19 +10,19 @@ function App() {
       <div className="box">
         <h2>Hey I'm Jackson</h2>
         <p>
-        A developer who's generally a problem solver, sometimes a 
+        A developer who's generally a problem solver and sometimes a 
         problem maker. I like to be pragmatic and point out absurdity. Let me 
         know how I can help you with your junk!
         </p>
       </div>
       <a href = "https://jackson-elfers.github.io/services">
-       <button style = {{ width: "100%" }}>My Services</button>
+       <button>My Services</button>
       </a>
        <a target = "_blank" href = "https://www.linkedin.com/in/jackson-elfers/">
-       <button style = {{ width: "100%" }}>My LinkedIn</button>
+       <button>My LinkedIn</button>
       </a>
       <a target = "_blank" href = "/jackson-elfers-resume-tech-2020.pdf">
-       <button style = {{ width: "100%" }}>My Resume</button>
+       <button>My Resume</button>
       </a>
       
       <img src = "./bonfire.gif" alt = "A bonfire."/>
