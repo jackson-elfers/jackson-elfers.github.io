@@ -10,9 +10,9 @@ function App() {
       <div className="box">
         <h2>Hey I'm Jackson</h2>
         <p>
-        A full-stack developer whose generally a problem solver, sometimes a 
+        A developer who's generally a problem solver, sometimes a 
         problem maker. I like to be pragmatic and point out absurdity. Let me 
-        know how I can help you with your junk! -Jackson
+        know how I can help you with your junk!
         </p>
       </div>
       <a href = "https://jackson-elfers.github.io/services">
