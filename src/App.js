@@ -10,9 +10,9 @@ function App() {
       <div className="box">
         <h2>Hey I'm Jackson</h2>
         <p>
-        I build applications with React and cloud based services with AWS,
-        I'm part of GitHub the world's largest open source community and
-        I'm always looking for where I can help, I'd love to chat on LinkedIn.
+        A full-stack developer whose generally a problem solver, sometimes a 
+        problem maker. I like to be pragmatic and point out absurdity. Let me 
+        know how I can help you with your junk! -Jackson
         </p>
       </div>
       <a href = "https://jackson-elfers.github.io/services">
