@@ -15,7 +15,7 @@ function App() {
         I'm always looking for where I can help, I'd love to chat on LinkedIn.
         </p>
       </div>
-      <a target = "_blank" href = "https://jackson-elfers.github.io/services">
+      <a href = "https://jackson-elfers.github.io/services">
        <button style = {{ width: "100%" }}>My Services</button>
       </a>
        <a target = "_blank" href = "https://www.linkedin.com/in/jackson-elfers/">
@@ -26,6 +26,13 @@ function App() {
       </a>
       
       <img src = "./bonfire.gif" alt = "A bonfire."/>
+      
+      <iframe style = {{ "margin-left": "5%", width: "90%", height: "600px" }} src="https://jackson-elfers.github.io/tailwind01"/>
+      
+      <iframe style = {{ "margin-left": "5%", width: "90%", height: "600px" }} src="https://jackson-elfers.github.io/tailwind02"/>
+      
+      <iframe style = {{ "margin-left": "5%", width: "90%", height: "600px" }} src="https://jackson-elfers.github.io/tailwind03"/>
+      
       </div>
   );
 }
