@@ -1,0 +1,10 @@
+.peddapPostDesc {
+  height: 100px;
+  overflow: auto;
+}
+
+@media only screen and (max-width: 800px) {
+  .peddapPostDesc {
+    height: auto;
+  }
+}

@@ -21,7 +21,7 @@ body {
   padding-left: 2%;
   padding-right: 2%;
   max-width: 1000px;
-  background-image: linear-gradient(to right, rgb(22, 132, 184), rgb(52, 177, 235), rgb(22, 132, 184));
+  background-image: linear-gradient(to right, rgb(22, 132, 184), rgb(52, 177, 235), rgb(88, 136, 158));
 }
 
 p {
@@ -61,15 +61,10 @@ textarea {
 }
 
 button {
+  border-radius: none;
   margin-top: 5px;
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
-}
-
-img {
-  width: 50%;
-  margin-left: 25%;
-  margin-right: 25%;
 }
 
 a:link {
@@ -81,25 +76,22 @@ a:visited {
   color: white;
 }
 
-::-webkit-scrollbar {
-  width: 20px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #888;
-}
-
 .box {
   margin-bottom: 5px;
-  padding: 5px;
+  padding: 1%;
   border-radius: 5px;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-@media only screen and (max-width: 600px) {
-  img {
-    width: 100%;
-    margin-left: 0%;
-    margin-right: 0%;
-  }
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0px; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #ff0000;
 }
