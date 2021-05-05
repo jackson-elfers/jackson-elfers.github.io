@@ -9,7 +9,7 @@
     "magic-heartflakes": "^4.1.5",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
-    "react-responsive-carousel": "^3.2.18",
+    "react-responsive-carousel": "^3.2.10",
     "react-scripts": "3.4.3",
     "typewriter-effect": "^2.17.0"
   },
