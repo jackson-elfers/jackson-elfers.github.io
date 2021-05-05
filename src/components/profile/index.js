@@ -46,6 +46,7 @@ function Main(props) {
     <div>
       <div className="box peddapViewer">
         <Carousel
+          autoPlay = {false}
           onChange={function(i) { setIndex(i); }}
           renderThumbs={() => {
             return [];
