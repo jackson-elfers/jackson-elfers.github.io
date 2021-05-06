@@ -3,12 +3,14 @@ import Typewriter from 'typewriter-effect/dist/core';
 import css from "./index.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
+import { v4 as uuid } from 'uuid';
 
 function Main(props) {
   const [index, setIndex] = useState(0);
+  const [id, setId] = useState(uuid());
 
   function titleEffect() {
-    const typewriter = new Typewriter(document.getElementById("panelTitle"), {
+    const typewriter = new Typewriter(document.getElementById(`${id}title`), {
       loop: false,
       delay: 75,
     });
@@ -19,7 +21,7 @@ function Main(props) {
   }
 
   function bodyEffect() {
-    const typewriter = new Typewriter(document.getElementById("panelBody"), {
+    const typewriter = new Typewriter(document.getElementById(`${id}body`), {
       loop: false,
       delay: 75,
     });
@@ -56,8 +58,8 @@ function Main(props) {
       </div>
 
       <div className="box peddapPanel">
-        <h2 id = "panelTitle"></h2>
-        <p id = "panelBody"></p>
+        <h2 id = {`${id}title`}></h2>
+        <p id = {`${id}body`}></p>
       </div>
     </div>
   );

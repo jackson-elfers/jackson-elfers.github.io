@@ -21,7 +21,7 @@ body {
   padding-left: 2%;
   padding-right: 2%;
   max-width: 1000px;
-  background-image: linear-gradient(to right, rgb(22, 132, 184), rgb(52, 177, 235), rgb(88, 136, 158));
+  background-image: linear-gradient(to right, rgb(22, 132, 184), rgb(52, 177, 235), rgb(22, 132, 184));
 }
 
 p {

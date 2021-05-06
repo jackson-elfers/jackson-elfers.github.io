@@ -26,27 +26,6 @@ function App() {
         panelComponent={directives}
       />
     </div>
-    
-    <div style={{ float: "left", width: "100%" }}>
-    <div style={{ height: "500px", position: "relative" }}>
-      <Fish width="100px" src="./fish.png" />
-      <Fish width="100px" src="./fish.png" />
-      <Fish width="100px" src="./fish.png" />
-      <Fish width="100px" src="./fish.png" />
-      <Fish width="100px" src="./fish.png" />
-    </div>
-    <div className="box">
-        <h2>We are emotionally polyamourus creatures.</h2>
-        <p>
-          A year ago I programmed these fish to connect deeply with one another.
-          They swim in simple fashions but just like you and I, get swept up in 
-          grand currents of emotion that is painfully invisible and inexplicable to 
-          our friends and family.
-        </p>
-
-        <p>Can you recall the first time you felt pain of another creature?</p>
-      </div>
-    </div>
 
     </div>
   );
