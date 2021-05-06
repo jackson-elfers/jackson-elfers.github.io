@@ -21,6 +21,21 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run ghpages && lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write --print-width 120",
+      "git add"
+    ],
+    "*.{css,html,json,md}": [
+      "prettier --write --print-width 120",
+      "git add"
+    ]
+  },
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -35,5 +50,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "husky": "^3.0.9",
+    "lint-staged": "^10.5.4",
+    "prettier": "^2.2.1"
   }
 }
