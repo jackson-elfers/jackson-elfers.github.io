@@ -3,6 +3,7 @@ import { Profile, Fish } from "./components";
 import Typewriter from "typewriter-effect";
 import "./styles";
 import directives from "./logs/directives";
+import innovators from "./logs/innovators";
 
 function App() {
   return (
@@ -24,6 +25,17 @@ function App() {
           <p>When she asks me about my future I say I prefer them over stocks and bonds.</p>
         </div>
         <Profile panelComponent={directives} />
+      </div>
+
+      <div style={{ float: "left", width: "100%" }}>
+        <div className="box">
+          <h2>The universe in her eyes is a shadow.</h2>
+          <p>
+            Great innovators don't step on people along the way. Let it not be a vision of chaos labeled as success by a
+            fortunate few.
+          </p>
+        </div>
+        <Profile panelComponent={innovators} />
       </div>
     </div>
   );
