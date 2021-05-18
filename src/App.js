@@ -4,6 +4,7 @@ import Typewriter from "typewriter-effect";
 import "./styles";
 import directives from "./logs/directives";
 import innovators from "./logs/innovators";
+import voxels from "./logs/voxels";
 
 function App() {
   return (
@@ -36,6 +37,14 @@ function App() {
           </p>
         </div>
         <Profile panelComponent={innovators} />
+      </div>
+
+      <div style={{ float: "left", width: "100%" }}>
+        <div className="box">
+          <h2>A house of many rooms.</h2>
+          <p>Laughter is a beautiful moment of liberation from emotional injury.</p>
+        </div>
+        <Profile panelComponent={voxels} />
       </div>
     </div>
   );
