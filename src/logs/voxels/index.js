@@ -8,7 +8,7 @@ export default [
     media: "./images/94badf08-6de2-430b-9734-cac757a2e7cb.jpeg",
     title: "Shelter",
     body:
-      "Earth materials to rise up and form round glass walls and stone floors. To be stacked vertically and horizontally.",
+      "Earth matter to rise up and form round glass walls and stone floors. To be stacked vertically and horizontally.",
   },
   {
     media: "./images/afc2026e-6dce-4c82-8870-fafe280903aa.jpeg",
