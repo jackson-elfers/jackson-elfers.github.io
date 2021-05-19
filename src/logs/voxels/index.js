@@ -24,12 +24,18 @@ export default [
   {
     media: "./images/f23b3418-3c21-4253-8fd2-fbf886577abe.jpeg",
     title: "Food",
-    body: "Plants optionally can be grown via automated gardens.",
+    body: "Crops grown via automated gardens.",
   },
   {
     media: "./images/50555010-d5ce-4436-8f8d-9c239b06d861.jpeg",
     title: "Voxel Constructor",
     body:
       "A large 3d printer capable of printing concrete and glass will speed up build times while decreasing development costs.",
+  },
+  {
+    media: "./images/94badf08-6de2-430b-9734-cac757a2e7cb.jpeg",
+    title: "1 Thessalonians 4:11-12",
+    body:
+      "11 and to make it your ambition to lead a quiet life: You should mind your own business and work with your hands, just as we told you, 12 so that your daily life may win the respect of outsiders and so that you will not be dependent on anybody.",
   },
 ];
