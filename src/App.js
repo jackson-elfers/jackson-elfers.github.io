@@ -41,8 +41,8 @@ function App() {
 
       <div style={{ float: "left", width: "100%" }}>
         <div className="box">
-          <h2>A house of many rooms.</h2>
-          <p>Laughter is a beautiful moment of liberation from emotional injury.</p>
+          <h2>The Voxel Solarium.</h2>
+          <p>A modern approach to beautiful, scalable, utility independent living.</p>
         </div>
         <Profile panelComponent={voxels} />
       </div>
